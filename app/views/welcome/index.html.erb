@@ -1,0 +1,13 @@
+<table>
+<% @words.each_with_index do |row, i| %>
+  <tr>
+  <% if i%5 == 0 && i != 0 %>
+    <tr><td class="spacer">&nbsp;</td></tr>
+  <% end %>
+
+  <% row.each do |word| %>
+    <td><%= word %></td>
+  <% end %>
+  </tr>
+<% end %>
+</table>

@@ -1,0 +1,15 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+td {
+    margin: 0;
+    padding: 4px;
+    border: solid black 1px;
+    font-size: x-large;
+}
+
+td.spacer {
+  border: none;
+  padding: 10px;
+}
